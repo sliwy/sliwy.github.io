@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+p.footer {
+	font-size: 0.7em;
+	margin-top: 5em;
+	margin-bottom: -5em;
+}
+
 /* Basic */
 
 	html {
@@ -2602,9 +2608,9 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2682,7 +2688,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 28%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
@@ -3039,6 +3045,13 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+
+
+			p.footer {
+				font-size: 0.7em;
+				margin-top: 2em;
+				margin-bottom: 0em;
+			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
